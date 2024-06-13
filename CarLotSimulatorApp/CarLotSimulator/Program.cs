@@ -52,7 +52,7 @@ namespace CarLotSimulator
             car3.MakeEngineNoise();
             car3.MakeHonkNoise();
 
-
+            Console.WriteLine($"Current number of cars in the lot: {CarLot.numberOfCars}");
 
             //*************BONUS*************//
 
